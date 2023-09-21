@@ -1,7 +1,11 @@
 public class HolaMundo {
 	
-	public static void main(String [] args){
+	private String holaMundo(){
+		return "Hola Mundo";
+}
 	
-		System.out.print("Hola Mundo");
+	public static void main(String [] args){
+		HolaMundo p = new HolaMundo();
+		System.out.print(p.holaMundo);
 	}
 }
